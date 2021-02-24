@@ -66,6 +66,11 @@
             border-color: #c08f96;
             } */
 
+        .img-responsive {
+            width: 100%;
+            height: auto;
+            }
+
     </style>
 
 
@@ -119,9 +124,9 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <!-- <a class="navbar-brand" href="#">
+                            <a class="navbar-brand" href="#">
                                 <img src="assets/images/logoTL.png" alt="Logo">
-                            </a> -->
+                            </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
                                 <span class="toggler-icon"></span>
@@ -158,23 +163,62 @@
             </div> <!-- container -->
         </div> <!-- navigation bar -->
 
+        <!-- phone look start -->
         <div class="header-banner d-flex align-items-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-8 col-lg-9 col-sm-10">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 d-xl-none">
+                            <div class="img-responsive"><img src="assets/images/banner/banner-pleated.png" class="img-responsive" alt="Responsive image"></div>
+                        
+                            <div class="banner-content">
+                                <a class="navbar-brand" href="#">
+                                    <!-- <img src="assets/images/logoTL.png" alt="Logo"> -->
+                                </a>
+                                <!-- <h4 class="sub-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">BAWAL & SHAWL</h4> -->
+                                <h1 class="banner-title mt-10 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="2s"><span>SIMPLE TO</span> LOOK ELEGANT</h1>
+                                <a class="banner-contact mt-25 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="2.3s" href="#footer">FOLLOW US</a>
+                            </div> <!-- banner content -->
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-9 col-sm-10 d-none d-xl-block">
                         <div class="banner-content">
-                            <a class="navbar-brand" href="#">
-                                <img src="assets/images/logoTL.png" alt="Logo">
-                            </a>
-                            <h4 class="sub-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">BAWAL & SHAWL</h4>
+                            <!-- <h4 class="sub-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">BAWAL & SHAWL</h4> -->
                             <h1 class="banner-title mt-10 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="2s"><span>SIMPLE TO</span> LOOK ELEGANT</h1>
                             <a class="banner-contact mt-25 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="2.3s" href="#footer">FOLLOW US</a>
                         </div> <!-- banner content -->
                     </div>
                 </div> <!-- row -->
             </div> <!-- container -->
-            <div class="banner-image bg_cover" style="background-image: url(assets/images/theleia/marble-fall.png)"></div>
-        </div> <!-- header banner -->
+
+            <div class="d-none d-xl-block">
+                <div class="banner-image bg_cover" style="background-image: url(assets/images/banner/banner-pleated.png)"></div>
+            </div>
+            
+        </div>
+        <!-- phone look end -->
+
+        <!-- destop display start -->
+        <!-- <div class="header-banner d-flex align-items-center d-none d-xl-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-9 col-sm-10 d-none d-xl-block">
+                       
+                        <div class="banner-content">
+                           
+                            <h1 class="banner-title mt-10 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="2s"><span>SIMPLE TO</span> LOOK ELEGANT</h1>
+                            <a class="banner-contact mt-25 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="2.3s" href="#footer">FOLLOW US</a>
+                        </div> 
+                    </div>
+                </div> 
+            </div> 
+            <div class="d-none d-xl-block">
+                <div class="banner-image bg_cover" style="background-image: url(assets/images/banner/banner-pleated.png)"></div>
+            </div>
+            
+        </div>  -->
+        <!-- desktop display end -->
 
     </header>
 
@@ -371,9 +415,12 @@
                             <img src="assets/images/theleia/pastel-pink.png" alt="Project">
                         </div>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#b008">
+                        <button type="button" class="btn btn-danger">
+                            SOLD OUT
+                        </button>
+                        <!-- <button type="button" class="btn btn-default" data-toggle="modal" data-target="#b008">
                             RM15
-                        </button> 
+                        </button>  -->
                     </div>               
                 </div>
 
@@ -871,9 +918,12 @@
                             <img src="assets/images/theleia/TLMalas/moss.png" alt="Project">
                         </div>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#m007">
-                            RM20
+                        <button type="button" class="btn btn-danger">
+                            SOLD OUT
                         </button>
+                        <!-- <button type="button" class="btn btn-default" data-toggle="modal" data-target="#m007">
+                            RM20
+                        </button> -->
                     </div>
                 </div>
 
